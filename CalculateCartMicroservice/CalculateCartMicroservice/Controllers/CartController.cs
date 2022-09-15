@@ -12,7 +12,7 @@ namespace CalculateCartMicroservice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    // [Authorize]
+    [Authorize]
     public class CartController : ControllerBase
     {
         private readonly ILoggerManager _logger;
